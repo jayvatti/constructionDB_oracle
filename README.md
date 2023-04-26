@@ -3,6 +3,8 @@
 ConstructionDB is a database designed to manage various aspects of construction projects, including project details, contractors, managers, workers, and inspections. The database helps streamline the management of construction projects by providing a centralized system to store and access project-related data.
 
 ## ERD 
+
+An Entity Relationship Diagram (ERD) with crow's foot notation visually represents the structure of the ConstructionDB. It highlights the relationships between tables, including primary and foreign keys, which aids in understanding data flow and ensuring efficient project management by effectively organizing and maintaining construction project information.
 <img width="1210" alt="image" src="https://user-images.githubusercontent.com/97709855/234433688-c02b27d9-3ab8-485b-8fcc-1c9d925888e8.png">
 
 
