@@ -19,9 +19,13 @@ ConstructionDB is a database designed to manage various aspects of construction 
 ## Main Tables
 
 - **CONSTRUCTION_PROJECTS**: Stores essential details of each construction project, such as the project name, start date, duration, and the associated contractor.
+
 - **CONTRACTORS**: Contains information about contractors, including their name, contact details, and company information.
+
 - **MANAGERS**: Keeps track of project managers, including their name, contact information, and years of experience.
+
 - **WORKERS**: Maintains records of workers involved in construction projects, including their name, contact details, wage per hour, grade, and associated manager and project.
+
 - **PROJECT_LOCATION_DATA**: Stores project location data, such as street address, city, state, worker count, and the associated manager.
 
 
