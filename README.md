@@ -29,4 +29,4 @@ ConstructionDB is a database designed to manage various aspects of construction 
 - **PROJECT_LOCATION_DATA**: Stores project location data, such as street address, city, state, worker count, and the associated manager.
 
 
-These tables are interconnected through foreign key relationships to provide comprehensive insights into construction projects, enabling efficient project management and decision-making. ConstructionDB aims to simplify the complexities of construction project management while improving collaboration and communication among team members.
+These tables are interconnected through foreign key relationships to provide comprehensive insights into construction projects, enabling efficient project management and decision-making. 
