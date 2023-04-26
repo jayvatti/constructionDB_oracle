@@ -2,6 +2,10 @@
 
 ConstructionDB is a database designed to manage various aspects of construction projects, including project details, contractors, managers, workers, and inspections. The database helps streamline the management of construction projects by providing a centralized system to store and access project-related data.
 
+## ERD 
+<img width="1210" alt="image" src="https://user-images.githubusercontent.com/97709855/234433688-c02b27d9-3ab8-485b-8fcc-1c9d925888e8.png">
+
+
 The following files are associated with the ConstructionDB:
 
 - **initConstruction**: This file is responsible for loading table data into the Oracle database. It contains the necessary SQL commands to create tables, define their structure, and insert initial data. This file is crucial for setting up the database and ensuring the appropriate structure is in place.
