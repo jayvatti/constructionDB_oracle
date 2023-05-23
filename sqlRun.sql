@@ -93,4 +93,20 @@ DELETE FROM TRAINING_UPDATE WHERE DESCRIPTION LIKE 'Basic%'; -- #12
 
 rollback to TRAINING_UPDATE_SP;
 
+
+_________
+
+-- JOIN and WHERE
+
+SELECT a.ArchitectName, a.Type, Decode(cp.ProjectName, NULL, 'N\A',cp.PROJECTNAME), Decode(a.PROJECTID, NULL, 'N\A',a.PROJECTID)
+FROM ARCHITECTURE a
+INNER JOIN CONSTRUCTION_PROJECTS cp ON cp.ProjectID = a.ProjectID;
+
+
+SELECT a.ArchitectName, a.Type, 
+       DECODE((SELECT cp.ProjectName FROM Construction_Projects cp WHERE cp.ProjectID = a.ProjectID), NULL, 'N/A', (SELECT cp.ProjectName FROM Construction_Projects cp WHERE cp.ProjectID = a.ProjectID)),
+       DECODE(a.ProjectID, NULL, 'N/A', a.ProjectID)
+FROM Architecture a
+WHERE a.ProjectID IN (SELECT cp.ProjectID FROM Construction_Projects cp);
+
 COMMIT;
