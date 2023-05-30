@@ -1,3 +1,4 @@
+
 -- PROJECT_COSTS table : to store the average project labor cost per hour and the standard deviation in wage for each project
 CREATE TABLE PROJECT_COSTS(
     PROJECT_COST_ID NUMBER(4) PRIMARY KEY,
